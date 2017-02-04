@@ -1,7 +1,7 @@
 {
   "name": "pokemonorbigdata",
   "version": "0.0.1",
-  "description": "Is this Pokemon or falsy ?",
+  "description": "Is this truthy or falsy ?",
   "author": "Tim \"pixelastic\" Carry",
   "private": true,
   "repository": {

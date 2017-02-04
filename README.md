@@ -1,6 +1,6 @@
-# Pokemon or falsy
+# truthy or falsy
 
-Is this a Pokemon or some kind of falsy technology ?
+Is this a truthy or some kind of falsy technology ?
 
 ## Why ?
 
