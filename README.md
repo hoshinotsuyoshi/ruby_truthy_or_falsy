@@ -1,6 +1,6 @@
-# Pokemon or Big Data
+# Pokemon or falsy
 
-Is this a Pokemon or some kind of Big Data technology ?
+Is this a Pokemon or some kind of falsy technology ?
 
 ## Why ?
 
