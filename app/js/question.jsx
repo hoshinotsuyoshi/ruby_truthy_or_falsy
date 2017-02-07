@@ -12,8 +12,8 @@ var Question = React.createClass({
       <div className="question">
         <h1 className="question-name">{this.props.question.name}</h1>
         <ul className="question-buttons">
-          <li><button className="btn btn-lg btn-default question-button-falsy" onClick={this.selectFalsyAnswer}>falsy</button></li>
           <li><button className="btn btn-lg btn-default question-button-truthy" onClick={this.selectTruthyAnswer}>truthy</button></li>
+          <li><button className="btn btn-lg btn-default question-button-falsy" onClick={this.selectFalsyAnswer}>falsy</button></li>
         </ul>
       </div>
     )
