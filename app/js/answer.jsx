@@ -9,7 +9,7 @@ var Answer = React.createClass({
     });
     var name = this.props.question.name;
     var text = this.props.question.text;
-    var type = this.props.question.type === IS_BIGDATA ? 'falsy' : 'truthy';
+    var type = this.props.question.type === IS_FALSY ? 'falsy' : 'truthy';
 
     return (
       <div className={classes}>

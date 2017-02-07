@@ -1,19 +1,19 @@
 'use strict';
 
 var Question = React.createClass({
-  selectBigDataAnswer: function selectBigDataAnswer() {
-    this.props.selectAnswer(IS_BIGDATA);
+  selectFalsyAnswer: function selectFalsyAnswer() {
+    this.props.selectAnswer(IS_FALSY);
   },
-  selecttruthyAnswer: function selecttruthyAnswer() {
-    this.props.selectAnswer(IS_POKEMON);
+  selectTruthyAnswer: function selectTruthyAnswer() {
+    this.props.selectAnswer(IS_TRUTHY);
   },
   render: function() {
     return (
       <div className="question">
         <h1 className="question-name">{this.props.question.name}</h1>
         <ul className="question-buttons">
-          <li><button className="btn btn-lg btn-default question-button-bigdata" onClick={this.selectBigDataAnswer}>falsy</button></li>
-          <li><button className="btn btn-lg btn-default question-button-pokemon" onClick={this.selecttruthyAnswer}>truthy</button></li>
+          <li><button className="btn btn-lg btn-default question-button-falsy" onClick={this.selectFalsyAnswer}>falsy</button></li>
+          <li><button className="btn btn-lg btn-default question-button-truthy" onClick={this.selectTruthyAnswer}>truthy</button></li>
         </ul>
       </div>
     )
