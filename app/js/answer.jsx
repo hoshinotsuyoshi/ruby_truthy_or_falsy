@@ -9,7 +9,8 @@ var Answer = React.createClass({
     });
     var name = this.props.question.name;
     var text = this.props.question.text;
-    var type = this.props.question.type === IS_FALSY ? 'falsy' : 'truthy';
+    var types = ['truthy', 'falsy', 'error'];
+    var type = types[this.props.question.type];
 
     return (
       <div className={classes}>

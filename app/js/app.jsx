@@ -9,6 +9,7 @@ var APP_STATES = {
 
 var IS_TRUTHY=0;
 var IS_FALSY=1;
+var IS_ERROR=2;
 
 var App = React.createClass({
   getInitialState: function() {

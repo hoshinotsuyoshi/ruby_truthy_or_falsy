@@ -1,11 +1,14 @@
 'use strict';
 
 var Question = React.createClass({
+  selectTruthyAnswer: function selectTruthyAnswer() {
+    this.props.selectAnswer(IS_TRUTHY);
+  },
   selectFalsyAnswer: function selectFalsyAnswer() {
     this.props.selectAnswer(IS_FALSY);
   },
-  selectTruthyAnswer: function selectTruthyAnswer() {
-    this.props.selectAnswer(IS_TRUTHY);
+  selectErrorAnswer: function selectErrorAnswer() {
+    this.props.selectAnswer(IS_ERROR);
   },
   render: function() {
     return (
@@ -14,6 +17,7 @@ var Question = React.createClass({
         <ul className="question-buttons">
           <li><button className="btn btn-lg btn-default question-button-truthy" onClick={this.selectTruthyAnswer}>truthy</button></li>
           <li><button className="btn btn-lg btn-default question-button-falsy" onClick={this.selectFalsyAnswer}>falsy</button></li>
+          <li><button className="btn btn-lg btn-default question-button-error" onClick={this.selectErrorAnswer}>error</button></li>
         </ul>
       </div>
     )
