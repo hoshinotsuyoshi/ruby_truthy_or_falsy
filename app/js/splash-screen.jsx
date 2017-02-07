@@ -3,7 +3,7 @@
 var SplashScreen = React.createClass({
   render: function() {
     return (
-      <div className="splashscreen">Is it big data or truthy ?</div>
+      <div className="splashscreen">Is it truthy or falsy?</div>
     )
   }
 });

@@ -1,15 +1,15 @@
 {
-  "name": "pokemonorbigdata",
+  "name": "truthy_or_falsy",
   "version": "0.0.1",
   "description": "Is this truthy or falsy ?",
-  "author": "Tim \"pixelastic\" Carry",
+  "author": "hoshinotsuyoshi",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:pixelastic/pokemonorbigdata.git"
+    "url": "ssh://git@github.com:hoshinotsuyoshi/truthy_or_falsy.git"
   },
   "bugs": {
-    "url": "https://github.com/pixelastic/pokemonorbigdata/issues"
+    "url": "https://github.com/hoshinotsuyoshi/truthy_or_falsy/issues"
   },
   "engines": {
     "node": "0.10.21",
