@@ -1,13 +1,13 @@
 [{
   "name": "??",
   "type": 0,
-  "text": "irb(main):007:0> ??\n=> \"?\""
+  "text": "\"?\""
 }, {
   "name": "-1.odd?",
   "type": 0,
-  "text": "irb(main):001:0> -1.odd?\n=> true"
+  "text": "true"
 }, {
   "name": "false.nil?",
   "type": 1,
-  "text": "irb(main):001:0> false.nil?\n=> false"
+  "text": "false"
 }]
