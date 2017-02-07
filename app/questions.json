@@ -1,13 +1,13 @@
 [{
   "name": "??",
-  "url": "http://bulbapedia.bulbagarden.net/wiki/??_(Pok%C3%A9mon)",
   "type": 0,
-  "text": "His body is durable enough to withstand high-pressure levels in the deep sea. Do not confuse with HBase, Couchbase, MeshBase, Graphbase or KirbyBase.",
-  "img": "gorebyss.png"
+  "text": "irb(main):007:0> ??\n=> \"?\""
 }, {
-  "name": "Tokutek",
-  "url": "https://www.percona.com/",
+  "name": "-1.odd?",
+  "type": 0,
+  "text": "irb(main):001:0> -1.odd?\n=> true"
+}, {
+  "name": "false.nil?",
   "type": 1,
-  "text": "Tokutek claims to improve MongoDB performance 20x. It is unclear if this also means losing 20x as many documents.",
-  "img": "tokutek.png"
+  "text": "irb(main):001:0> false.nil?\n=> false"
 }]
