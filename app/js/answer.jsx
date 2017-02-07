@@ -16,10 +16,13 @@ var Answer = React.createClass({
         <h1 className="answer-name">
            {name} is {type}!
         </h1>
-        <div className="answer-text">irb(main):001:0&gt; {name}
-          <br/>
-          =&gt; {text}
-        </div>
+        <pre className="language-diff">
+            <code className="language-diff">
+               irb(main):001:0&gt; {name}
+               <br/>
+               =&gt; {text}
+            </code>
+        </pre>
         <div className="answer-next">
           <button className="btn btn-lg btn-primary answer-button-next" onClick={this.props.nextQuestion}>Next question</button>
         </div>
