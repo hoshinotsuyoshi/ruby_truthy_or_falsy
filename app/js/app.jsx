@@ -16,7 +16,7 @@ var App = React.createClass({
     // Load question data from the server
     var self = this;
     $.get('./questions.json', function(questions) {
-      questions = _.shuffle(questions);
+      questions = _.take(_.shuffle(questions), 10);
       self.setState({
         currentState: APP_STATES.QUESTION,
         questionList: questions,
