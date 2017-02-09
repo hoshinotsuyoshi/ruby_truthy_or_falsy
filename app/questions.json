@@ -1,17 +1,37 @@
-[{
-  "name": "??",
-  "type": 0,
-  "text": "\"?\""
-}, {
-  "name": "-1.odd?",
-  "type": 0,
-  "text": "true"
-}, {
-  "name": "false.nil?",
-  "type": 1,
-  "text": "false"
-}, {
-  "name": "1...3.cover?(2)",
-  "type": 2,
-  "text": "NoMethodError: undefined method `cover?' for 3:Integer\nfrom (irb):1\nfrom /Users/cesario/.rbenv/versions/2.4.0/bin/irb:11:in `<main>"
-}]
+[
+  {
+    "name": "??",
+    "type": 0,
+    "text": "=> \"?\""
+  },
+  {
+    "name": "-1.odd?",
+    "type": 0,
+    "text": "=> true"
+  },
+  {
+    "name": "false.nil?",
+    "type": 1,
+    "text": "=> false"
+  },
+  {
+    "name": "1...3.cover?(2)",
+    "type": 2,
+    "text": "NoMethodError: undefined method `cover?' for 3:Integer\n        from (irb):1\n        from /Users/hoshino/.rbenv/versions/2.4.0/bin/irb:11:in `<main>"
+  },
+  {
+    "name": "0.even?",
+    "type": 0,
+    "text": "=> true"
+  },
+  {
+    "name": "i",
+    "type": 2,
+    "text": "NameError: undefined local variable or method `i' for main:Object\n        from (irb):1\n        from /Users/hoshino/.rbenv/versions/2.4.0/bin/irb:11:in `<main>'"
+  },
+  {
+    "name": "//",
+    "type": 0,
+    "text": "=> //"
+  }
+]

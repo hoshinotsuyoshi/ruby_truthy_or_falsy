@@ -21,7 +21,7 @@ var Answer = React.createClass({
             <code className="language-diff">
                irb(main):001:0&gt; {name}
                <br/>
-               =&gt; {text}
+               {text}
             </code>
         </pre>
         <div className="answer-next">
