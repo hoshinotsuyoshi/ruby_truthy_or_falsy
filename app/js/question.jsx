@@ -13,6 +13,14 @@ var Question = React.createClass({
   render: function() {
     return (
       <div className="question">
+        <header>
+          $ ruby -v
+          #=&gt; ruby 2.5.0preview1 (2017-10-10 trunk 60153)
+          <br/>
+          $ irb
+          <br/>
+          irb(main):001:0&gt;
+        </header>
         <h1 className="question-name">{this.props.question.name}</h1>
         <ul className="question-buttons">
           <li><button className="btn btn-lg btn-default question-button-truthy" onClick={this.selectTruthyAnswer}>truthy</button></li>
