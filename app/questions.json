@@ -293,5 +293,15 @@
     "name": "Pathname('/')",
     "type": 2,
     "text": "NoMethodError: undefined method `Pathname' for main:Object\n        from (irb):1\n        from /Users/hoshino/.rbenv/versions/2.5.0-preview1/bin/irb:11:in `<main>'"
+  },
+  {
+    "name": "\"3\".end_with? /\\D/",
+    "type": 2,
+    "text": "NoMethodError: undefined method `Pathname' for main:Object\n        from (irb):1\n        from /Users/hoshino/.rbenv/versions/2.5.0-preview1/bin/irb:11:in `<main>'"
+  },
+  {
+    "name": "Integer.sqrt(10).even?",
+    "type": 1,
+    "text": "=> false"
   }
 ]
