@@ -13,6 +13,14 @@ var Question = React.createClass({displayName: "Question",
   render: function() {
     return (
       React.createElement("div", {className: "question"}, 
+        React.createElement("header", null, 
+          "$ ruby -v" + ' ' +
+          "#=> ruby 2.5.0preview1 (2017-10-10 trunk 60153)", 
+          React.createElement("br", null), 
+          "$ irb", 
+          React.createElement("br", null), 
+          "irb(main):001:0>"
+        ), 
         React.createElement("h1", {className: "question-name"}, this.props.question.name), 
         React.createElement("ul", {className: "question-buttons"}, 
           React.createElement("li", null, React.createElement("button", {className: "btn btn-lg btn-default question-button-truthy", onClick: this.selectTruthyAnswer}, "truthy")), 
