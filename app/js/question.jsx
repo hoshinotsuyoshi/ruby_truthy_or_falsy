@@ -15,7 +15,7 @@ var Question = React.createClass({
       <div className="question">
         <header>
           $ ruby -v
-          #=&gt; ruby 2.5.0preview1 (2017-10-10 trunk 60153)
+          #=&gt; ruby 2.5.0p0 (2017-12-25 trunk 61468) [x86_64-darwin16]
           <br/>
           $ irb
           <br/>
