@@ -122,12 +122,12 @@
   {
     "name": "6.tap(2)",
     "type": 2,
-    "text": "Traceback (most recent call last):\n            3: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n            2: from (irb):1\n                    1: from (irb):1:in `tap'\nArgumentError (wrong number of arguments (given 1, expected 0))"
+    "text": "Traceback (most recent call last):\n        3: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n        2: from (irb):1\n        1: from (irb):1:in `tap'\nArgumentError (wrong number of arguments (given 1, expected 0))"
   },
   {
     "name": "[ ].to_json.is_a?(JSON)",
     "type": 2,
-    "text": "Traceback (most recent call last):\n            2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n            1: from (irb):1\nNoMethodError (undefined method `to_json' for []:Array\nDid you mean?  to_s)"
+    "text": "Traceback (most recent call last):\n        2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n        1: from (irb):1\nNoMethodError (undefined method `to_json' for []:Array\nDid you mean?  to_s)"
   },
   {
     "name": "Infinity",
@@ -142,7 +142,7 @@
   {
     "name": "nil.falsy?",
     "type": 2,
-    "text": "Traceback (most recent call last):\n            2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n            1: from (irb):1\nNoMethodError (undefined method `falsy?' for nil:NilClass)"
+    "text": "Traceback (most recent call last):\n        2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n        1: from (irb):1\nNoMethodError (undefined method `falsy?' for nil:NilClass)"
   },
   {
     "name": "1.0 == 1",
@@ -237,12 +237,12 @@
   {
     "name": "->(_){ }.arity.one?",
     "type": 2,
-    "text": "Traceback (most recent call last):\n            2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n            1: from (irb):1\nNoMethodError (undefined method `one?' for 1:Integer)"
+    "text": "Traceback (most recent call last):\n        2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n        1: from (irb):1\nNoMethodError (undefined method `one?' for 1:Integer)"
   },
   {
     "name": "[3,2,1].take {|a| p a}",
     "type": 2,
-    "text": "Traceback (most recent call last):\n            3: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n            2: from (irb):1\n            1: from (irb):1:in `take'\nArgumentError (wrong number of arguments (given 0, expected 1))"
+    "text": "Traceback (most recent call last):\n        3: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n        2: from (irb):1\n        1: from (irb):1:in `take'\nArgumentError (wrong number of arguments (given 0, expected 1))"
   },
   {
     "name": "p p p",
@@ -257,7 +257,7 @@
   {
     "name": "// & //",
     "type": 2,
-    "text": "Traceback (most recent call last):\n            2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n            1: from (irb):1\nNoMethodError (undefined method `&' for //:Regexp)"
+    "text": "Traceback (most recent call last):\n        2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n        1: from (irb):1\nNoMethodError (undefined method `&' for //:Regexp)"
   },
   {
     "name": "10.times do raise; rescue; end",
@@ -272,7 +272,7 @@
   {
     "name": "Vector",
     "type": 2,
-    "text": "Traceback (most recent call last):\n            2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n            1: from (irb):1\nNameError (uninitialized constant Vector)<Paste>"
+    "text": "Traceback (most recent call last):\n        2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n        1: from (irb):1\nNameError (uninitialized constant Vector)<Paste>"
   },
   {
     "name": "(+++1 ---1).zero?",
