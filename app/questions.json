@@ -132,7 +132,7 @@
   {
     "name": "Infinity",
     "type": 2,
-    "text": ""
+    "text": "Traceback (most recent call last):\n        2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n        1: from (irb):1\nNameError (uninitialized constant Infinity)"
   },
   {
     "name": "[1, 2, 3].take(2)",
