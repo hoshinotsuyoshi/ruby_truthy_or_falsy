@@ -17,7 +17,7 @@
   {
     "name": "1...3.cover?(2)",
     "type": 2,
-    "text": "NoMethodError: undefined method `cover?' for 3:Integer\n        from (irb):1\n        from /Users/hoshino/.rbenv/versions/2.5.0-preview1/bin/irb:11:in `<main>"
+    "text": "Traceback (most recent call last):\n        2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n        1: from (irb):1\nNoMethodError (undefined method `cover?' for 3:Integer)"
   },
   {
     "name": "0.even?",
@@ -27,7 +27,7 @@
   {
     "name": "i",
     "type": 2,
-    "text": "NameError: undefined local variable or method `i' for main:Object\n        from (irb):1\n        from /Users/hoshino/.rbenv/versions/2.5.0-preview1/bin/irb:11:in `<main>'"
+    "text": "Traceback (most recent call last):\n        2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n        1: from (irb):1\nNameError (undefined local variable or method `i' for main:Object)"
   },
   {
     "name": "//",
@@ -37,7 +37,7 @@
   {
     "name": "[ ].blank?",
     "type": 2,
-    "text": "NoMethodError: undefined method `blank?' for []:Array\n        from (irb):1\n        from /Users/hoshino/.rbenv/versions/2.5.0-preview1/bin/irb:11:in `<main>'"
+    "text": "Traceback (most recent call last):\n        2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n        1: from (irb):1\nNoMethodError (undefined method `blank?' for []:Array)"
   },
   {
     "name": "1/0.0",
@@ -47,7 +47,7 @@
   {
     "name": "0/0",
     "type": 2,
-    "text": "ZeroDivisionError: divided by 0\n        from (irb):1:in `/'\n        from (irb):1\n        from /Users/hoshino/.rbenv/versions/2.5.0-preview1/bin/irb:11:in `<main>'"
+    "text": "Traceback (most recent call last):\n        3: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n        2: from (irb):1\n        1: from (irb):1:in `/'\nZeroDivisionError (divided by 0)"
   },
   {
     "name": "(-1/0.0).infinite?",
@@ -57,12 +57,12 @@
   {
     "name": "3.! > 2",
     "type": 2,
-    "text": "NoMethodError: undefined method `>' for false:FalseClass\n        from (irb):1\n        from /Users/hoshino/.rbenv/versions/2.5.0-preview1/bin/irb:11:in `<main>'"
+    "text": "Traceback (most recent call last):\n        2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n        1: from (irb):1\nNoMethodError (undefined method `>' for false:FalseClass)"
   },
   {
     "name": "75 =< -75",
     "type": 2,
-    "text": "SyntaxError: (irb):1: syntax error, unexpected '=', expecting end-of-input\n75 =< -75\n    ^\n        from /Users/hoshino/.rbenv/versions/2.5.0-preview1/bin/irb:11:in `<main>'"
+    "text": "Traceback (most recent call last):\n        1: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\nSyntaxError ((irb):1: syntax error, unexpected '=', expecting end-of-input\n75 =< -75\n   ^)"
   },
   {
     "name": "require 'time'",
@@ -82,7 +82,7 @@
   {
     "name": "nil.empty?",
     "type": 2,
-    "text": "NoMethodError: undefined method `empty?' for nil:NilClass\n        from (irb):1\n        from /Users/hoshino/.rbenv/versions/2.5.0-preview1/bin/irb:11:in `<main>'"
+    "text": "Traceback (most recent call last):\n        2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n        1: from (irb):1\nNoMethodError (undefined method `empty?' for nil:NilClass)"
   },
   {
     "name": "42.dup",
@@ -112,27 +112,27 @@
   {
     "name": "echo '1'",
     "type": 2,
-    "text": "NoMethodError: undefined method `echo' for main:Object\n        from (irb):1\n        from /Users/hoshino/.rbenv/versions/2.5.0-preview1/bin/irb:11:in `<main>'"
+    "text": "Traceback (most recent call last):\n        2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n        1: from (irb):1\nNoMethodError (undefined method `echo' for main:Object)"
   },
   {
     "name": "{}.presence",
     "type": 2,
-    "text": "NoMethodError: undefined method `presence' for {}:Hash\n        from (irb):1\n        from /Users/hoshino/.rbenv/versions/2.5.0-preview1/bin/irb:11:in `<main>'"
+    "text": "Traceback (most recent call last):\n        2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n        1: from (irb):1\nNoMethodError (undefined method `presence' for {}:Hash)<Paste>"
   },
   {
     "name": "6.tap(2)",
     "type": 2,
-    "text": "ArgumentError: wrong number of arguments (given 1, expected 0)\n        from (irb):1:in `tap'\n        from (irb):1\n        from /Users/hoshino/.rbenv/versions/2.5.0-preview1/bin/irb:11:in `<main>'"
+    "text": "Traceback (most recent call last):\n            3: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n            2: from (irb):1\n                    1: from (irb):1:in `tap'\nArgumentError (wrong number of arguments (given 1, expected 0))"
   },
   {
     "name": "[ ].to_json.is_a?(JSON)",
     "type": 2,
-    "text": "NoMethodError: undefined method `to_json' for []:Array\nDid you mean?  to_s\n        from (irb):1\n        from /Users/hoshino/.rbenv/versions/2.5.0-preview1/bin/irb:11:in `<main>'"
+    "text": "Traceback (most recent call last):\n            2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n            1: from (irb):1\nNoMethodError (undefined method `to_json' for []:Array\nDid you mean?  to_s)"
   },
   {
     "name": "Infinity",
     "type": 2,
-    "text": "NameError: uninitialized constant Infinity\n        from (irb):1\n        from /Users/hoshino/.rbenv/versions/2.5.0-preview1/bin/irb:11:in `<main>'"
+    "text": ""
   },
   {
     "name": "[1, 2, 3].take(2)",
@@ -142,7 +142,7 @@
   {
     "name": "nil.falsy?",
     "type": 2,
-    "text": "NoMethodError: undefined method `falsy?' for nil:NilClass\n        from (irb):1\n        from /Users/hoshino/.rbenv/versions/2.5.0-preview1/bin/irb:11:in `<main>'"
+    "text": "Traceback (most recent call last):\n            2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n            1: from (irb):1\nNoMethodError (undefined method `falsy?' for nil:NilClass)"
   },
   {
     "name": "1.0 == 1",
@@ -162,7 +162,7 @@
   {
     "name": ":1.equal? :1",
     "type": 2,
-    "text": "SyntaxError: (irb):1: syntax error, unexpected tINTEGER, expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END\n:1.equal? :1\n  ^\n(irb):1: syntax error, unexpected tINTEGER, expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END\n:1.equal? :1\n            ^\n        from /Users/hoshino/.rbenv/versions/2.5.0-preview1/bin/irb:11:in `<main>'"
+    "text": "Traceback (most recent call last):\n        1: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\nSyntaxError ((irb):1: syntax error, unexpected tINTEGER, expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END\n:1.equal? :1\n ^\n(irb):1: syntax error, unexpected tINTEGER, expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END\n:1.equal? :1\n           ^)"
   },
   {
     "name": "(0**0).even?",
@@ -237,12 +237,12 @@
   {
     "name": "->(_){ }.arity.one?",
     "type": 2,
-    "text": "NoMethodError: undefined method `one?' for 1:Integer\n        from (irb):1\n        from /Users/hoshino/.rbenv/versions/2.5.0-preview1/bin/irb:11:in `<main>'"
+    "text": "Traceback (most recent call last):\n            2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n            1: from (irb):1\nNoMethodError (undefined method `one?' for 1:Integer)"
   },
   {
     "name": "[3,2,1].take {|a| p a}",
     "type": 2,
-    "text": "ArgumentError: wrong number of arguments (given 0, expected 1)\n        from (irb):1\n        from /Users/hoshino/.rbenv/versions/2.5.0-preview1/bin/irb:11:in `<main>'"
+    "text": "Traceback (most recent call last):\n            3: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n            2: from (irb):1\n            1: from (irb):1:in `take'\nArgumentError (wrong number of arguments (given 0, expected 1))"
   },
   {
     "name": "p p p",
@@ -257,7 +257,7 @@
   {
     "name": "// & //",
     "type": 2,
-    "text": "NoMethodError: undefined method `&' for //:Regexp\n        from (irb):1\n        from /Users/hoshino/.rbenv/versions/2.5.0-preview1/bin/irb:11:in `<main>'"
+    "text": "Traceback (most recent call last):\n            2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n            1: from (irb):1\nNoMethodError (undefined method `&' for //:Regexp)"
   },
   {
     "name": "10.times do raise; rescue; end",
@@ -272,7 +272,7 @@
   {
     "name": "Vector",
     "type": 2,
-    "text": "NameError: uninitialized constant Vector\n        from (irb):1\n        from /Users/hoshino/.rbenv/versions/2.5.0-preview1/bin/irb:11:in `<main>'"
+    "text": "Traceback (most recent call last):\n            2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n            1: from (irb):1\nNameError (uninitialized constant Vector)<Paste>"
   },
   {
     "name": "(+++1 ---1).zero?",
@@ -292,12 +292,12 @@
   {
     "name": "Pathname('/')",
     "type": 2,
-    "text": "NoMethodError: undefined method `Pathname' for main:Object\n        from (irb):1\n        from /Users/hoshino/.rbenv/versions/2.5.0-preview1/bin/irb:11:in `<main>'"
+    "text": "Traceback (most recent call last):\n        2: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n        1: from (irb):1\nNoMethodError (undefined method `Pathname' for main:Object)"
   },
   {
     "name": "\"3\".end_with? /\\D/",
     "type": 2,
-    "text": "NoMethodError: undefined method `Pathname' for main:Object\n        from (irb):1\n        from /Users/hoshino/.rbenv/versions/2.5.0-preview1/bin/irb:11:in `<main>'"
+    "text": "Traceback (most recent call last):\n        3: from /Users/hoshino/.rbenv/versions/2.5.0/bin/irb:11:in `<main>'\n        2: from (irb):1\n        1: from (irb):1:in `end_with?'\nTypeError (no implicit conversion of Regexp into String)"
   },
   {
     "name": "Integer.sqrt(10).even?",

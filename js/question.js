@@ -15,7 +15,7 @@ var Question = React.createClass({displayName: "Question",
       React.createElement("div", {className: "question"}, 
         React.createElement("header", null, 
           "$ ruby -v" + ' ' +
-          "#=> ruby 2.5.0preview1 (2017-10-10 trunk 60153)", 
+          "#=> ruby 2.5.0p0 (2017-12-25 trunk 61468) [x86_64-darwin16]", 
           React.createElement("br", null), 
           "$ irb", 
           React.createElement("br", null), 
